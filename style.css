@@ -1,0 +1,113 @@
+.font-NovaSquare {
+    font-family: 'Nova Square', cursive;
+}
+.logo-custom {
+    height: 100px;
+}
+h1 {
+    color: var(--main-color);
+    font-family: 'Nova Square', cursive;
+    font-size: 65px;
+    font-weight: 550;
+    letter-spacing:70px;
+}
+@media screen and (max-width: 600px){
+    h1 {
+        color: var(--main-color);
+        font-family: 'Nova Square', cursive;
+        font-size: 30px;
+        letter-spacing: 30px;
+    }
+}
+h2 {
+    font-family: 'Nova Square', cursive;
+}
+p , a {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px; 
+}
+:root {
+    --main-color: #8b0203;
+
+    --sec-color:  #6c757e;
+
+    --third-color:#ececec;  
+}
+.nav-custom {
+    background-color: var(--third-color);
+    width: 100%;
+    transition: 0.2s;
+}
+
+.nav-custom .nav-link {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: var(--sec-color)!important;
+    
+}
+.nav-custom .nav-link:hover {
+    text-decoration: underline solid 2px var(--main-color);
+
+}
+.text-right {
+    text-align: right;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background:linear-gradient(to top ,transparent 10% ,#ececec 100%,#ececec 100%) , url(./img/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mountain-zoom {
+    zoom: 140%;
+}
+
+.bg-third-color {
+     background-color: var(--third-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+.sec-color {
+    color: var(--sec-color);
+}
+.button-custom{
+    background-color: var(--main-color);
+    border-radius: 0%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px; 
+    border-color: var(--sec-color);
+    border: solid 5px var(--sec-color);
+    transition: 0,3s;
+}
+.button-custom:hover {
+    background-color: #6c757e;
+    zoom: 120%;
+    border: solid 5px var(--main-color);
+}
+.bg-forest-white {
+    background-image: url(./img/trees2.png);
+    zoom: 140%;
+    position: relative;
+}
+.text-align-right {
+    text-align: right;
+}
+
+.paragraph-around {
+    justify-content: space-around;
+}
+@media screen and (max-width: 600px){
+    .paragraph-around{
+        justify-content: center;
+        text-align: center;
+    }
+    .text-align-right {
+        text-align: center;
+    }
+}
+
