@@ -25,6 +25,7 @@ h2 {
 p , a {
     font-family: 'Rajdhani', sans-serif;
     font-size: 18px; 
+
 }
 :root {
     --main-color: #8b0203;
@@ -68,6 +69,9 @@ p , a {
 .bg-third-color {
      background-color: var(--third-color);
 }
+.bg-main-color {
+    background-color: var(--main-color);
+}
 
 .main-color {
     color: var(--main-color);
@@ -79,7 +83,8 @@ p , a {
     background-color: var(--main-color);
     border-radius: 0%;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 18px; 
+    font-size: 25px;
+    width: 250px; 
     border-color: var(--sec-color);
     border: solid 5px var(--sec-color);
     transition: 0,3s;
@@ -101,7 +106,7 @@ p , a {
 .paragraph-around {
     justify-content: space-around;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .paragraph-around{
         justify-content: center;
         text-align: center;
@@ -111,3 +116,120 @@ p , a {
     }
 }
 
+.masthead-trees {
+    height: 30vh;
+    min-height: 500px;
+    background-color: var(--third-color);
+    background-image: url(./img/trees2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.png-timeline {
+    height: 80vh;
+    min-height: 500px;
+    background-color: white;
+    background-image: url(./img/single.png);
+    background-position: 90% 100%;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    height:100%; 
+}
+/* MEh  */
+.container-team {
+    height: 100vh;
+    min-height: 500px;
+    background-color: #ececec;
+}
+
+.bg-circle {
+    background-color: white;
+    color: #8b0203;
+    border-radius: 100%;
+    z-index: 1;
+}
+.linea-rossa::before {
+    content: "";
+    border: #8b0203 solid 2px;
+    background-color: #8b0203;
+    position: relative;
+    display: inline-block;
+    width: 220px; 
+}
+.circle-around {
+    left: 153px;
+    top: 95px;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    
+}
+ul.timeline::before {
+    content: ' ';
+    background: var(--third-color);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 3px;
+    height: 100%;
+    z-index: 400;
+    background-color: #8b0203;
+}
+ul.timeline li {
+    margin: 20px 0;
+    padding-left: 20px;
+    color: var(--sec-color);
+}
+ul.timeline li::before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.card-team {
+      background-color: #ececec;
+      
+}
+.card-team-body {
+      background-color: #ececec;
+      border: transparent;
+      
+}
+.card-size {
+    height: 200px;
+    width: 200px;
+    border:4px solid var(--main-color );
+    border-radius: 70%;
+    padding: 1%;
+}
+
+.img-benefit {
+    height:300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 1%;
+    border:4px solid var(--main-color );
+    background-color: var(--third-color) ;
+}
+.footer {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(./img/other.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    zoom: 60%;
+  }
+.footer-text{
+    color: var(--third-color);
+}
