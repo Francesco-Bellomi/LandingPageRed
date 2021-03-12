@@ -4,6 +4,9 @@
 .logo-custom {
     height: 100px;
 }
+body {
+    background-color: #ececec;
+}
 h1 {
     color: var(--main-color);
     font-family: 'Nova Square', cursive;
@@ -11,6 +14,7 @@ h1 {
     font-weight: 550;
     letter-spacing:70px;
 }
+
 @media screen and (max-width: 600px){
     h1 {
         color: var(--main-color);
