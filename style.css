@@ -34,6 +34,9 @@ p , a {
 
     --third-color:#ececec;  
 }
+.img-fluid {
+    zoom: 40%;
+}
 .nav-custom {
     background-color: var(--third-color);
     width: 100%;
@@ -148,14 +151,8 @@ p , a {
     border-radius: 100%;
     z-index: 1;
 }
-.linea-rossa::before {
-    content: "";
-    border: #8b0203 solid 2px;
-    background-color: #8b0203;
-    position: relative;
-    display: inline-block;
-    width: 220px; 
-}
+
+
 .circle-around {
     left: 153px;
     top: 95px;
