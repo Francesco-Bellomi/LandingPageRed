@@ -24,34 +24,37 @@
   <body> 
    <!-- navbar -->
   <section>
-    <div class="container-fluid nav-custom d-flex justify-content-center">
-      <div class="row">
-          <div class="col-12 col-sm-2">
-              <img src="./img/logo.png" class="logo-custom" alt="">
+    <div data-aos="fade-down" data-aos-delay="500"  data-aos-once="true" data-aos-duration="3000">
+        <div class="container-fluid nav-custom d-flex justify-content-center">
+          <div class="row">
+              <div class="col-12 col-sm-2">
+                  <img src="./img/logo.png" class="logo-custom" alt="">
+              </div>
           </div>
       </div>
-  </div>
-  <div class="container-fluid nav-custom">
-      <div class="row">
-          <div class="col-12">
-            <ul class="nav justify-content-center" class="nav-custom">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Primo link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Altro link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Terzo link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Ultimo link</a>
-                </li>
-              </ul>
+      <div class="container-fluid nav-custom">
+          <div class="row">
+              <div class="col-12">
+                <ul class="nav justify-content-center" class="nav-custom">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Primo link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Altro link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Terzo link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Ultimo link</a>
+                    </li>
+                  </ul>
+              </div>
           </div>
       </div>
-  </div>
+    </div>  
   </section>
+
 <!-- Titolone con montagna -->
   <section>
    <div class="position-relative">
@@ -59,8 +62,8 @@
        <div class="container-fluid d-flex justify-content-center h-100">
          <div class="row h-100 align-items-center">
            <div class="d-flex text-center">
-            <div data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" data-aos-duration="3000">
-             <h1 class="animation-title">LOREM</h1>
+            <div class="sign">
+              <span class="fast-flicker">L</span>O<span class="flicker">R</span>EM
             </div>
            </div>
          </div>
@@ -150,7 +153,8 @@
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-12 text-center">
-              <button type="button" class="btn btn-primary btn-sm button-custom ">Lorem ipsum</button>
+              <button type="button" data-bs-toggle="modal"data-bs-target="#staticBackdrop"
+                class="btn  btn-sm button-custom ">Lorem ipsum</button>
             </div>
           </div>
         </div>
@@ -299,6 +303,24 @@
         </div>
       </div>
   </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog d-flex justify-content-center align-items-center">
+    <div class="modal-content modal-custom">
+      <div class="modal-header">
+        <h5 class="modal-title main-color" id="staticBackdropLabel">Lorem Ipsum Segreto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="third-color"> Tecnica proibita del Lorem ipsum segreto dolor sit amet consectetur adipisicing elit. Delectus dolore reiciendis doloremque quos quisquam quibusdam quidem quam molestias. Nulla modi optio voluptatem adipisci consectetur eos similique pariatur fugiat aliquam autem?
+          EH?  HAI CAPITO O NO??
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <!-- AOS -->
