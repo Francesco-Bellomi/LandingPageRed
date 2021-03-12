@@ -237,7 +237,7 @@ ul.timeline li::before {
 .footer {
     height: 100vh;
     min-height: 500px;
-    background-image: url(./img/other.png);
+    background-image: url(./img/bigfoot.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
