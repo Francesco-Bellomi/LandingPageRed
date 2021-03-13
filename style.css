@@ -12,7 +12,6 @@ h1 {
     font-family: 'Nova Square', cursive;
     font-size: 65px;
     font-weight: 550;
-    letter-spacing:70px;
 }
 
 @media screen and (max-width: 600px){
@@ -20,9 +19,9 @@ h1 {
         color: var(--main-color);
         font-family: 'Nova Square', cursive;
         font-size: 30px;
-        letter-spacing: 30px;
     }
 }
+
 h2 {
     font-family: 'Nova Square', cursive;
 }
@@ -45,6 +44,13 @@ p , a {
     background-color: var(--third-color);
     width: 100%;
     transition: 0.2s;
+}
+@media screen and (max-height 100px) {
+  .sticky-top {
+    position: sticky;
+    top: 100px;
+    background-color: var(--third-color) , transparent 50%;
+  }
 }
 
 .nav-custom .nav-link {
