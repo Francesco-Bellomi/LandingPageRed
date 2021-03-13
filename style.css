@@ -45,13 +45,6 @@ p , a {
     width: 100%;
     transition: 0.2s;
 }
-@media screen and (max-height 100px) {
-  .sticky-top {
-    position: sticky;
-    top: 100px;
-    background-color: var(--third-color) , transparent 50%;
-  }
-}
 
 .nav-custom .nav-link {
     font-family: 'Rajdhani', sans-serif;
